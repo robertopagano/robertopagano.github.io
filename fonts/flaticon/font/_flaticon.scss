@@ -1,0 +1,88 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 15/03/2020 11:32
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-analysis:before { content: "\f100"; }
+.flaticon-deep-learning:before { content: "\f101"; }
+.flaticon-data:before { content: "\f102"; }
+.flaticon-data-analytics:before { content: "\f103"; }
+.flaticon-analytics:before { content: "\f104"; }
+.flaticon-structure:before { content: "\f105"; }
+.flaticon-analytics-1:before { content: "\f106"; }
+.flaticon-diagnostic:before { content: "\f107"; }
+.flaticon-linear-regression:before { content: "\f108"; }
+.flaticon-clipboard:before { content: "\f109"; }
+.flaticon-interview:before { content: "\f10a"; }
+.flaticon-academic:before { content: "\f10b"; }
+.flaticon-graduation:before { content: "\f10c"; }
+.flaticon-university:before { content: "\f10d"; }
+.flaticon-around:before { content: "\f10e"; }
+.flaticon-suitcase:before { content: "\f10f"; }
+.flaticon-luggage:before { content: "\f110"; }
+.flaticon-data-analysis:before { content: "\f111"; }
+.flaticon-ranking:before { content: "\f112"; }
+.flaticon-ranking-1:before { content: "\f113"; }
+.flaticon-linkedin:before { content: "\f114"; }
+.flaticon-ab-testing:before { content: "\f115"; }
+.flaticon-gift:before { content: "\f116"; }
+.flaticon-big-data:before { content: "\f117"; }
+    
+    $font-Flaticon-analysis: "\f100";
+    $font-Flaticon-deep-learning: "\f101";
+    $font-Flaticon-data: "\f102";
+    $font-Flaticon-data-analytics: "\f103";
+    $font-Flaticon-analytics: "\f104";
+    $font-Flaticon-structure: "\f105";
+    $font-Flaticon-analytics-1: "\f106";
+    $font-Flaticon-diagnostic: "\f107";
+    $font-Flaticon-linear-regression: "\f108";
+    $font-Flaticon-clipboard: "\f109";
+    $font-Flaticon-interview: "\f10a";
+    $font-Flaticon-academic: "\f10b";
+    $font-Flaticon-graduation: "\f10c";
+    $font-Flaticon-university: "\f10d";
+    $font-Flaticon-around: "\f10e";
+    $font-Flaticon-suitcase: "\f10f";
+    $font-Flaticon-luggage: "\f110";
+    $font-Flaticon-data-analysis: "\f111";
+    $font-Flaticon-ranking: "\f112";
+    $font-Flaticon-ranking-1: "\f113";
+    $font-Flaticon-linkedin: "\f114";
+    $font-Flaticon-ab-testing: "\f115";
+    $font-Flaticon-gift: "\f116";
+    $font-Flaticon-big-data: "\f117";

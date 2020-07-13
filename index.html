@@ -63,8 +63,7 @@
 			<nav id="colorlib-main-menu" role="navigation" class="navbar">
 				<div id="navbar" class="collapse">
 					<ul>
-						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
-						<li><a href="#" data-nav-section="about">About</a></li>
+						<li class="active"><a href="#" data-nav-section="about">Bio</a></li>
 						<li><a href="#" data-nav-section="skills">Skills</a></li>
 						<li><a href="#" data-nav-section="experience">Experience</a></li>
 						<li><a href="#" data-nav-section="education">Education</a></li>
@@ -79,31 +78,36 @@
 		</aside>
 
 		<div id="colorlib-main">
-			<section id="colorlib-hero" class="js-fullheight" data-section="home">
-				<div class="flexslider js-halfheight">
-					<ul class="slides">
-				   	<li style="background-image: url(images/img_bg_ml.jpg);">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner js-fullheight">
-					   					<div class="desc">
-						   					<h1>Roberto Pagano</h1>
-						   					<h2>Senior Data Scientist at <a href="https://booking.com.com/" target="_blank">booking.com</a></h2>
-												<p><a class="btn btn-primary btn-learn" href="pdfs/curriculum.pdf">Download CV <i class="icon-download4"></i></a></p>
-											</div>
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-				   	
-				  	</ul>
-			  	</div>
+			
+
+			<section class="colorlib-hero" data-section="about">
+
+
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInTop">
+								<div class="col-md-12">
+									
+										<div class="my-home" style="font-size: 50px; font-family: Playfair Display, Georgia, serif; text-align: center; " >
+							   					<b>Roberto Pagano</b>
+							   			</div>
+							   			<div style="text-align: center; font-size: 20px">
+							   					<c>Data Scientist</c>
+							   			</div>
+									
+								</div>
+							</div>
+							
+							
+						</div>
+					</div>
+				</div>
 			</section>
 
-			<section class="colorlib-about" data-section="about">
+			<section class="colorlib-about">
+
+
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-12">
@@ -112,11 +116,11 @@
 									<div class="about-desc">
 										<span class="heading-meta">About me</span>
 										<h2 class="colorlib-heading">Who Am I?</h2>
-										<p>I am a machine learning researcher and practitioner with more than 7 years of experience in solving ranking problems.</p>
+										<p>I am a researcher and practitioner with 7 years of experience in recommender systems, ranking, and machine learning.</p>
 										<p>I have a PhD in Computer Science obtained in Politecnico di Milano under the superision of Professor Cremonesi. For six months during my PhD I had the opportunity to study in TU Delft, under the supervision of Professor Martha Larson.</p>
 										<p>I am now working in Booking.com in the Ranking Team where I have the opportunity to try out new ranking algorithms in a large scale e-commerce setting, gathering feedback on them from users from all over the world.</p>
 										<p>I presented my papers in RecSys and WWW conferences, and published in ACM Transactions on Information Systems (TOIS).</p>
-										<p>Although ranking is my passion, I had the opportunity to be involved in broader Machine Learning projects, as well as creating data pipelines.</p>
+										<p>Although ranking is my passion, I had the opportunity to be involved in broader Machine Learning projects, as well as creating and managing data pipelines.</p>
 									</div>
 								</div>
 							</div>
@@ -238,13 +242,13 @@
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
 							<span class="heading-meta">Experience</span>
-							<h2 class="colorlib-heading animate-box">Work Experience</h2>
+							<h2 class="colorlib-heading animate-box">Experience</h2>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-md-12">
 				         <div class="timeline-centered">
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
 					            <div class="timeline-entry-inner">
 
 					               <div class="timeline-icon color-1">
@@ -253,13 +257,13 @@
 
 					               <div class="timeline-label">
 					                  <h2><a href="#">Senior Data Scientist - Booking.com</a> <span>2017 - now</span></h2>
-					                  	<p>In Booking.com I joined the ranking team where I am constantly trying to improve the ranking of search results for a better customer experience. My daily tasks involve managing data pipelines, solving serving problems, addressing biases, evaluating ranking algorithms offline and online through Randomized Controlled Trials, leading Data Science projects, analyses, interviewing and menthoring.</p>
+					                  	<p>In Booking.com I joined the ranking team where I am constantly trying to improve search results page for a better customer experience. My daily tasks involve leading, developing and managing data pipelines, training machine learned models, solving serving problems, addressing biases, evaluating ranking algorithms offline and online through Randomized Controlled Trials.</p>
 					               </div>
 					            </div>
 					         </article>
 
 
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
 					            <div class="timeline-entry-inner">
 					               <div class="timeline-icon color-4">
 					                  <i class="flaticon-graduation"></i>
@@ -466,6 +470,17 @@
 									<p><a href="mailto:&#114;&#111;&#98;&#101;&#114;&#116;&#111;&#46;&#112;&#97;&#103;&#97;&#110;&#111;&#46;&#56;&#56;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">Send me an email</a></p>
 								</div>
 							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-download4"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="pdfs/curriculum.pdf">Download CV</a></p>
+								</div>
+							</div>
+
+							
 
 							
 						</div>
